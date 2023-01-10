@@ -4,7 +4,7 @@ import { tw } from "@twind";
 
 const listClass = "py-2 px-4 hover:underline";
 
-const menu =["Find", "Today","Playing"]
+const menu =["Find", "Today","Playing","Project"]
 
 export default function Header() {
   return <div className={tw`w-screen flex justify-center border-b-[1px]`}>
